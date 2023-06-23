@@ -1,0 +1,10 @@
+<div class="text-center mt-5 p-5 border">
+    <p class="display-4">{{currentUser['username']}}</p>
+    <p class="display-4">{{currentUser['email']}}</p>
+    <!-- <img src={{currentUser['profileImage']}} alt=""> -->
+    
+    <button class="btn btn-danger text-white" (click)="getProtectedData()">Get Protected data</button>
+
+    <h1 class="text-danger">{{confidentialData}}</h1>
+</div>
+
